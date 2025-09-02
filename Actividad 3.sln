@@ -1,22 +1,41 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad 3", "Actividad 3\Actividad 3.csproj", "{AD808917-341B-4240-A70D-22695D376523}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD808917-341B-4240-A70D-22695D376523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD808917-341B-4240-A70D-22695D376523}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD808917-341B-4240-A70D-22695D376523}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD808917-341B-4240-A70D-22695D376523}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
+﻿//NOTA 1
+double resultado1 = 0;
+double nota1 = 0;
+string dato1 = "";
+
+Console.WriteLine("Ingrese nota 1:");
+dato1 = Console.ReadLine();
+
+nota1 = int.Parse(dato1);
+
+resultado1 = (nota1 * 20) / 100;
+  
+//NOTA 2
+double resultado2 = 0;
+double nota2 = 0;
+string dato2 = "";
+
+Console.WriteLine("Ingrese nota 2:");
+dato2 = Console.ReadLine();
+
+nota2 = int.Parse(dato2);
+
+resultado2 = (nota2 * 30) / 100;
+
+//NOTA 3
+
+double resultado3 = 0;
+double nota3 = 0;
+string dato3 = "";
+
+Console.WriteLine("Ingrese nota 3:");
+dato3 = Console.ReadLine();
+
+nota3 = int.Parse(dato3);
+
+resultado3 = (nota3 * 50) / 100;
+
+//PROMEDIO FINAL
+
+double promediofinal = (resultado1 + resultado2 + resultado3);
+Console.WriteLine("Su promedio final es de:" + promediofinal);
