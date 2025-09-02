@@ -23,7 +23,6 @@ nota2 = int.Parse(dato2);
 resultado2 = (nota2 * 30) / 100;
 
 //NOTA 3
-
 double resultado3 = 0;
 double nota3 = 0;
 string dato3 = "";
@@ -39,3 +38,4 @@ resultado3 = (nota3 * 50) / 100;
 
 double promediofinal = (resultado1 + resultado2 + resultado3);
 Console.WriteLine("Su promedio final es de:" + promediofinal);
+
