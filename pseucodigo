@@ -1,30 +1,23 @@
 INICIO
-    // MÓDULO 1
     DEFINIR resultado1, nota1 COMO REAL
     DEFINIR dato1 COMO CADENA
     ESCRIBIR "Ingrese nota 1: "
     LEER dato1
     nota1 = CONVERTIR_A_NUMERO(dato1)
-    resultado1 = (nota1 * 20) / 100
-
-    // MÓDULO 2
+   
     DEFINIR resultado2, nota2 COMO REAL
     DEFINIR dato2 COMO CADENA
     ESCRIBIR "Ingrese nota 2: "
     LEER dato2
-    nota2 = CONVERTIR_A_NUMERO(dato2)
-    resultado2 = (nota2 * 30) / 100
+    nota2 = CONVERTIR_A_NUMERO(dato2).
 
-    // MÓDULO 3
     DEFINIR resultado3, nota3 COMO REAL
     DEFINIR dato3 COMO CADENA
     ESCRIBIR "Ingrese nota 3: "
     LEER dato3
     nota3 = CONVERTIR_A_NUMERO(dato3)
-    resultado3 = (nota3 * 50) / 100
 
     // PROMEDIO FINAL
     DEFINIR promedioFinal COMO REAL
-    promedioFinal = (resultado1 + resultado2 + resultado3)
     ESCRIBIR "El promedio final es: ", promedioFinal
 FIN
